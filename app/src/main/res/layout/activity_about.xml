@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F9FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About WanHaziq Bill Calculator"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/imageStudent"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/student_photo"
+            android:scaleType="centerCrop"
+            android:contentDescription="Student picture"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Application Description"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WanHaziq Bill Calculator is a mobile application that helps users estimate their monthly electricity bill based on electricity usage and rebate percentage. The application calculates the total charges and final cost after rebate using electricity tariff block rates."
+            android:textSize="15sp"
+            android:textColor="#333333"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Information"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textStudentInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Name: Wan Haziq Firdaus Bin Wan Mohammad\nStudent ID: 2025160949\nCourse Code: ICT602\nCourse Name: Mobile Technology and Development"
+            android:textSize="15sp"
+            android:textColor="#333333"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Use the Application"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Select the month.\n2. Enter electricity usage between 1 and 1000 kWh.\n3. Choose rebate percentage from 0% to 5% using the slider.\n4. Tap Calculate Bill to view total charges and final cost.\n5. Tap Save Record to store the information.\n6. Tap View History to view saved bills.\n7. Tap any record in the list to view full details, edit, or delete the record."
+            android:textSize="15sp"
+            android:textColor="#333333"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Application Website"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textGithubUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/yourusername/yourproject"
+            android:textSize="15sp"
+            android:textColor="#0D47A1"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© 2026 Wan Haziq Firdaus Bin Wan Mohammad. All rights reserved."
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+</ScrollView>

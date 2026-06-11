@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F9FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bill Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:gravity="center"
+            android:layout_marginBottom="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textDetailMonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Month:"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textDetailUnit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unit Used:"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textDetailTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Charges:"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textDetailRebate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rebate:"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textDetailFinal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Final Cost:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0D47A1" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Record"
+            android:drawableStart="@drawable/ic_edit"
+            android:drawablePadding="8dp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Record"
+            android:drawableStart="@drawable/ic_delete"
+            android:drawablePadding="8dp"
+            android:backgroundTint="#C62828"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>
