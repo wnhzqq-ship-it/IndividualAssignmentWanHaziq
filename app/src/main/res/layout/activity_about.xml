@@ -94,7 +94,7 @@
             android:id="@+id/textGithubUrl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="https://github.com/yourusername/yourproject"
+            android:text="https://github.com/wnhzqq-ship-it/IndividualAssignmentWanHaziq"
             android:textSize="15sp"
             android:textColor="#0D47A1"
             android:layout_marginTop="6dp"
