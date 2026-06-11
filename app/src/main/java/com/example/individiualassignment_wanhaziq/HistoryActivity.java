@@ -54,10 +54,9 @@ public class HistoryActivity extends AppCompatActivity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 this,
-                android.R.layout.simple_list_item_1,
+                R.layout.list_item_bill,
                 displayList
         );
-
         listViewBills.setAdapter(adapter);
 
         if (displayList.isEmpty()) {
